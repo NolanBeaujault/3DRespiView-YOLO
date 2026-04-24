@@ -12,3 +12,14 @@ __pycache__/
 *.npy
 *.tflite
 !5_exported_models/v2_obb/model_torse.tflite
+
+# System fils MacOS
+.DS_Store
+**/.DS_Store
+
+# Secrets 
+.env
+**/.env
+
+# Label Studio database
+2_label_studio/label_studio.sqlite3
