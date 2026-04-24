@@ -1,0 +1,14 @@
+# datasets & raw medias
+1_raw_data/
+2_label_studio/media/
+3_yolo_dataset/
+
+# weights of our models
+*.pt
+!4_training_results/v2_obb/train/weights/best.pt
+
+# temporary files
+__pycache__/
+*.npy
+*.tflite
+!5_exported_models/v2_obb/model_torse.tflite
